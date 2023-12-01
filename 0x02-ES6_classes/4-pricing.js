@@ -11,7 +11,6 @@ export default class Pricing {
   }
 
   static convertPrice(amount, conversionRate) {
-    if (typeof amount !== 'number' || conversionRate !== 'number') throw new Error('amount and conversion rate must be an integer');
     return amount * conversionRate;
   }
 
