@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "scripts": {
     "lint": "./node_modules/.bin/eslint",
     "check-lint": "eslint [0-9]*.js",
