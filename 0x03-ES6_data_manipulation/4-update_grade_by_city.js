@@ -4,7 +4,7 @@ export default function updateStudentGradeByCity(students, city, grades) {
     gradesList[studentId] = grade;
   });
   return students.filter((student) => student.location === city).map((student) => {
-    let grade = undefined;
+    let grade = 'N/A';
     if (student.id in gradesList) {
       grade = gradesList[student.id];
     }
